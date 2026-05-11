@@ -1378,3 +1378,11 @@ hr {
     font-size: 15px;
     color: #FFFFFF;
 }
+.btn-subscribe{
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-subscribe:hover{
+    color: #ebb812;
+    background-color:#043106;
+}
