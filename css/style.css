@@ -86,8 +86,16 @@ p {}
     justify-content: space-between;
 }
 
+.container a {
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-delay: .2s;
+}
+
 .container a:hover {
+    transform: scale(1.2, 1.2);
     color: #f6b300;
+
 }
 
 .row {
@@ -156,7 +164,7 @@ body {
     /* background-color: rgb(119, 114, 114); */
 }
 
-/* -------navbar------- */
+/* ------------------------------------------navbar---------------------------------- */
 header {
     position: fixed;
     top: 0;
@@ -281,7 +289,7 @@ hr {
     margin-left: 190px;
 }
 
-/* -----------banner ------- */
+/* -----------------------banner ------------------------ */
 
 .banner-back {
     width: 100%;
@@ -383,7 +391,7 @@ hr {
     cursor: pointer;
 }
 
-/* --------Explore--------- */
+/* -----------------------------------Explore--------------------- */
 
 .explore .container {
     height: 1010px;
@@ -512,7 +520,7 @@ hr {
     background-repeat: no-repeat;
 }
 
-/*------ common img class -------*/
+/*----------------------- common img class -------*/
 
 .fetures-img img {
     width: 56px;
@@ -555,7 +563,7 @@ hr {
     font-family: "Ortica Linear";
 }
 
-/* ------bed img section-------- */
+/* -----------------------bed img section-------- */
 
 .bed-imgall {
     width: 1925px;
@@ -709,7 +717,7 @@ hr {
     padding-left: 10px;
 }
 
-.spa-img .content h1 {
+.spa-img .content h2 {
     font-family: "Ortica Linear";
     text-align: left;
     padding-top: 25px;
@@ -803,7 +811,20 @@ hr {
 
 .img-card-slide {
     position: relative;
+    overflow: hidden;
+    border-radius: 30px;
 }
+
+/* .img-card-slide img {
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-delay: .5s;
+    transition-timing-function: ease;
+} */
+
+/* .img-card-slide img:hover {
+    transform: scale(1.5, 1.5);
+} */
 
 .img-card-slide .content {
     position: absolute;
@@ -812,7 +833,7 @@ hr {
     color: #E7E1E1;
 }
 
-/* ------sea section------- */
+/* --------------------------------sea section------- */
 
 /* .sea{
     background-image: url(../image/sea.png);
@@ -1378,11 +1399,13 @@ hr {
     font-size: 15px;
     color: #FFFFFF;
 }
-.btn-subscribe{
+
+.btn-subscribe {
     padding: 10px;
     border-radius: 5px;
 }
-.btn-subscribe:hover{
+
+.btn-subscribe:hover {
     color: #ebb812;
-    background-color:#043106;
+    background-color: #043106;
 }
