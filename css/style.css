@@ -718,6 +718,7 @@ hr {
 }
 
 .spa-img .content h2 {
+    max-width: 400px;
     font-family: "Ortica Linear";
     text-align: left;
     padding-top: 25px;
@@ -771,7 +772,8 @@ hr {
     letter-spacing: 3px;
 }
 
-.con-left .heading h1 {
+.con-left .heading h2 {
+    max-width: 400px;
     font-family: "Ortica Linear";
     font-size: 48px;
     padding-top: 20px;
@@ -905,6 +907,7 @@ hr {
 }
 
 .review-container h2 {
+    max-width: 400px;
     margin-top: 30px;
     font-family: "HelveticaNeue";
     font-size: 48px;
@@ -1309,7 +1312,8 @@ hr {
     /* background-color: #ebb812; */
 }
 
-.footer-left h2 {
+.footer-left .heading1 {
+    max-width: 400px;
     font-family: "Ortica Linear";
     font-size: 48px;
     color: #FFFFFF;
@@ -1317,7 +1321,7 @@ hr {
     padding-top: 25px;
 }
 
-.footer-right h3 {
+.footer-right .heading2 {
     font-family: "Ortica Linear";
     font-size: 24px;
     color: #FFFFFF;
